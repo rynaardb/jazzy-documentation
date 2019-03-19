@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		F1B9597B2241896900FFE63B /* JazzyDocumentation.h in Headers */ = {isa = PBXBuildFile; fileRef = F1B959792241896900FFE63B /* JazzyDocumentation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1B9598222418A4400FFE63B /* UserApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B9598122418A4300FFE63B /* UserApiClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F1B959762241896900FFE63B /* JazzyDocumentation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JazzyDocumentation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1B959792241896900FFE63B /* JazzyDocumentation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JazzyDocumentation.h; sourceTree = "<group>"; };
 		F1B9597A2241896900FFE63B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1B9598122418A4300FFE63B /* UserApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserApiClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 			children = (
 				F1B959792241896900FFE63B /* JazzyDocumentation.h */,
 				F1B9597A2241896900FFE63B /* Info.plist */,
+				F1B9598122418A4300FFE63B /* UserApiClient.swift */,
 			);
 			path = JazzyDocumentation;
 			sourceTree = "<group>";
@@ -95,6 +98,7 @@
 				TargetAttributes = {
 					F1B959752241896900FFE63B = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -130,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1B9598222418A4400FFE63B /* UserApiClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +266,7 @@
 		F1B9597F2241896900FFE63B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -277,6 +283,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.rynaardburger.JazzyDocumentation;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -285,6 +292,7 @@
 		F1B959802241896900FFE63B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
