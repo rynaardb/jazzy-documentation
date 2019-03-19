@@ -49,7 +49,7 @@ public class UserApiClient {
     ///   - firstname: User firstname
     ///   - lastname: User lastname
     ///   - age: User age
-    /// - warning: Deprecated
+    /// - warning: Deprecated. Use: `UserApiClient.newUser(_ user: User)`
     @available(*, deprecated, message: "Use newUser(_ user: User)")
     public func newUser(firstname: String, lastname: String, age: Int) {
 
