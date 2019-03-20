@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C403F1CA2242E9D900CD5FE0 /* User.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = C403F1C92242E9D900CD5FE0 /* User.swift.swift */; };
 		F1B9597B2241896900FFE63B /* JazzyDocumentation.h in Headers */ = {isa = PBXBuildFile; fileRef = F1B959792241896900FFE63B /* JazzyDocumentation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F1B9598222418A4400FFE63B /* UserApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B9598122418A4300FFE63B /* UserApiClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C403F1C92242E9D900CD5FE0 /* User.swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift.swift; sourceTree = "<group>"; };
 		F1B959762241896900FFE63B /* JazzyDocumentation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JazzyDocumentation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1B959792241896900FFE63B /* JazzyDocumentation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JazzyDocumentation.h; sourceTree = "<group>"; };
 		F1B9597A2241896900FFE63B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +53,7 @@
 				F1B959792241896900FFE63B /* JazzyDocumentation.h */,
 				F1B9597A2241896900FFE63B /* Info.plist */,
 				F1B9598122418A4300FFE63B /* UserApiClient.swift */,
+				C403F1C92242E9D900CD5FE0 /* User.swift.swift */,
 			);
 			path = JazzyDocumentation;
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1B9598222418A4400FFE63B /* UserApiClient.swift in Sources */,
+				C403F1CA2242E9D900CD5FE0 /* User.swift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
