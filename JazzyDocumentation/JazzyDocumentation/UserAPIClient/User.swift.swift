@@ -4,7 +4,6 @@ public struct User: Codable {
     let lastname: String
     let age: Int
 
-
     /// User status
     ///
     /// - active: User is active

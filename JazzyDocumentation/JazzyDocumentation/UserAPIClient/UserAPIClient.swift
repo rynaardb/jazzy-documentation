@@ -1,15 +1,12 @@
+import Foundation
+
 /**
  A simple HTTP user client
 
  - Author:
  Rynaard Burger
-
  */
-
-import Foundation
-
-/// User HTTP client
-public class UserApiClient {
+public class UserAPIClient {
     /**
      Creates a new user
      - Parameter user: The new user
@@ -18,12 +15,10 @@ public class UserApiClient {
      ````
      UserApiClient.newUser(user1)
      ````
-
      */
     public static func newUser(_ user: User) {
         fatalError("not yet implemented")
     }
-
 
     /// Creates a new user (Deprecated)
     ///
@@ -31,7 +26,7 @@ public class UserApiClient {
     ///   - firstname: User firstname
     ///   - lastname: User lastname
     ///   - age: User age
-    /// - warning: Deprecated. Use: `newUser(_ user: User)`
+    /// - warning: Deprecated. Use: `newUser(_:)`
     @available(*, deprecated, message: "Use newUser(_ user: User)")
     public static func newUser(firstname: String, lastname: String, age: Int) {
         fatalError("not yet implemented")
